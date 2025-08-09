@@ -80,4 +80,5 @@ export const ProjectHeader: React.FC<ProjectHeaderProps> = ({ project, isLoading
         )}
       </div>
     </div>
-  );
+  )
+}; 

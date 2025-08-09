@@ -5,10 +5,10 @@ import { ListTodo, Users, FileText, BarChart3, Calendar } from 'lucide-react';
 import { supabaseBrowser } from '@/lib/supabase/client';
 import { ProjectHeader } from '../../components/projects/ProjectHeader';
 import TaskList from '../../components/tasks/TaskList';
-import CalendarModule from '../../components/CalendarModule';
-import TeamModule from '../../components/TeamModule';
-import ContractsModule from '../../components/ContractsModule';
-import InsightsModule from '../../components/InsightsModule';
+import CalendarModule from 'app/(dashboard)/calendar/page';
+import TeamModule from 'app/(dashboard)/team/page';
+import ContractsModule from 'app/(dashboard)/contracts/page';
+import InsightsModule from 'app/(dashboard)/insights/page';
 
 export default function ProjectDetail() {
   const [currentTab, setCurrentTab] = useState('tasks');
