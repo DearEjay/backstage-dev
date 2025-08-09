@@ -1,9 +1,12 @@
+'use client'; // Add this line at the very top of the file
+
 import React, { useState } from 'react';
 import { Plus, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface CalendarModuleProps {
   projectId: string;
 }
+
 
 const CalendarModule: React.FC<CalendarModuleProps> = ({ projectId }) => {
   const [currentDate, setCurrentDate] = useState(new Date());

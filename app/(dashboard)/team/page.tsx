@@ -1,3 +1,5 @@
+'use client'; // Add this line at the very top of the file
+
 import React, { useState, useEffect } from 'react';
 import { Plus, Send, Paperclip, Users, MessageCircle } from 'lucide-react';
 import { supabaseBrowser } from '@/lib/supabase/client';
