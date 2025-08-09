@@ -1,4 +1,4 @@
-// src/lib/supabase/server.ts
+import '@/lib/supabase/server'
 import { createServerClient } from '@supabase/ssr'
 import { cookies } from 'next/headers'
 import type { NextResponse } from 'next/server'

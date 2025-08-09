@@ -1,3 +1,5 @@
+// Root layout component that sets up HTML structure and global styles for the entire application
+
 import './globals.css';
 import type { Metadata } from 'next';
 
